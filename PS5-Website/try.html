@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    .swiper {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+     
+      margin-top: -150px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.3s;
+   
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      border-radius: 25px;
+      box-shadow: 0 4px 8px rgb(0, 0, 0);
+    }
+
+    .swiper-slide.swiper-slide-active {
+      transform: rotateY(0deg);
+    }
+
+    .swiper-slide {
+      transform: rotateY(45deg);
+    
+    }
+  </style>
+</head>
+
+<body>
+    
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-game-carousel-spider-man-2-11dec23" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-game-carousel-avatar-frontiers-04dec23" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-game_carousel-02_horizon-forbidden-west" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-gran-turismo-7-image-block-01-en-28feb22" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-game-carousel-helldivers-2-04dec23" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-game-carousel-fc24-04dec23" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-TLOU-Part-1-image-block-01-en-10oct22" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cube",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: {
+        delay: 2000, // milliseconds
+        disableOnInteraction: false, // prevent autoplay stopping on user interaction
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

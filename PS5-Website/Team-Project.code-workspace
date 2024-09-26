@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Team-Project"
+		},
+		{
+			"path": "../Team-work"
+		},
+		{
+			"path": "../Titan-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Team-Project"
+	}
+}
