@@ -19,6 +19,7 @@ const bookdata = () => {
         let td5 = document.createElement("td");
         td5.innerHTML = info.category;
         let td6 = document.createElement("td");
+        td6.style.cursor = "pointer"; 
         td6.innerHTML = "Buy";
         td6.style.backgroundColor = "green";
 
@@ -29,6 +30,7 @@ const bookdata = () => {
         let td7 = document.createElement("td");
         td7.innerHTML = "Add";
         td7.style.backgroundColor = "red";
+        td7.style.cursor = "pointer"; 
         td7.addEventListener("click", () => {
             bookmark(index);
         });

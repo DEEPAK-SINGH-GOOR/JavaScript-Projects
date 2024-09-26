@@ -13,4 +13,5 @@ document.getElementById("signin-form").addEventListener("submit", (e) => {
     library.push(newBook);
     localStorage.setItem('library', JSON.stringify(library));
     alert("Book added successfully!");
+    window.location.href = "dashboard.html";
 });
