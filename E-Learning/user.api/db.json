@@ -1,0 +1,244 @@
+{
+  "Courses": [
+    {
+      "id": 1,
+      "title": "Web Development Bootcamp",
+      "image": "https://img-b.udemycdn.com/course/750x422/1565838_e54e_18.jpg",
+      "topics": [
+        {
+          "name": "HTML & CSS",
+          "subTopics": ["HTML Basics", "CSS Flexbox", "CSS Grid"]
+        },
+        {
+          "name": "JavaScript",
+          "subTopics": ["Variables", "Functions", "DOM Manipulation"]
+        }
+      ],
+      "difficulty": "Beginner",
+      "durationHours": 40,
+      "rating": 4.8,
+      "reviewCount": 120,
+      "price": 199.99
+    },
+    {
+      "id": 2,
+      "title": "Data Science with Python",
+      "image": "https://daxg39y63pxwu.cloudfront.net/images/blog/python-for-data-science/Python_for_Data_Science.png",
+      "topics": [
+        {
+          "name": "Python Programming",
+          "subTopics": ["Python Basics", "Libraries", "Data Structures"]
+        },
+        {
+          "name": "Data Analysis",
+          "subTopics": ["Pandas", "NumPy", "Data Visualization"]
+        }
+      ],
+      "difficulty": "Intermediate",
+      "durationHours": 50,
+      "rating": 4.7,
+      "reviewCount": 150,
+      "price": 299.99
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning A-Z",
+      "image": "https://img-c.udemycdn.com/course/750x422/950390_270f_3.jpg",
+      "topics": [
+        {
+          "name": "Supervised Learning",
+          "subTopics": ["Linear Regression", "Logistic Regression"]
+        },
+        {
+          "name": "Unsupervised Learning",
+          "subTopics": ["Clustering", "Dimensionality Reduction"]
+        }
+      ],
+      "difficulty": "Advanced",
+      "durationHours": 60,
+      "rating": 4.9,
+      "reviewCount": 200,
+      "price": 399.99
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity Fundamentals",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG_Yd2SdhhlAtctw9wSfvEaxj6YeJVK5q7og&s",
+      "topics": [
+        {
+          "name": "Network Security",
+          "subTopics": ["Firewalls", "VPN", "Intrusion Detection"]
+        },
+        {
+          "name": "Cryptography",
+          "subTopics": ["Symmetric Encryption", "Asymmetric Encryption"]
+        }
+      ],
+      "difficulty": "Intermediate",
+      "durationHours": 45,
+      "rating": 4.6,
+      "reviewCount": 95,
+      "price": 249.99
+    },
+    {
+      "id": 5,
+      "title": "Graphic Design Masterclass",
+      "image": "https://img.freepik.com/free-vector/cartoon-graphic-design-landing-page_52683-70881.jpg",
+      "topics": [
+        {
+          "name": "Adobe Photoshop",
+          "subTopics": ["Layers", "Masking", "Retouching"]
+        },
+        {
+          "name": "Adobe Illustrator",
+          "subTopics": ["Vectors", "Typography", "Logos"]
+        }
+      ],
+      "difficulty": "Beginner",
+      "durationHours": 30,
+      "rating": 4.5,
+      "reviewCount": 80,
+      "price": 149.99
+    },
+    {
+      "id": 6,
+      "title": "Full Stack Development with React and Node.js",
+      "image": "https://neetable.com/img/blog/blog-inner/react-node-js-for-full-stack-web-development/why-combine-react-and-node-js-for-full-stack-web-development.jpg",
+      "topics": [
+        {
+          "name": "Frontend Development",
+          "subTopics": ["React", "Redux", "UI/UX Design"]
+        },
+        {
+          "name": "Backend Development",
+          "subTopics": ["Node.js", "Express", "Databases"]
+        }
+      ],
+      "difficulty": "Advanced",
+      "durationHours": 70,
+      "rating": 4.9,
+      "reviewCount": 220,
+      "price": 499.99
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Development with Flutter",
+      "image": "https://cdn.prod.website-files.com/5f841209f4e71b2d70034471/6078b650748b8558d46ffb7f_Flutter%20app%20development.png",
+      "topics": [
+        {
+          "name": "Dart Programming",
+          "subTopics": ["Syntax", "Classes", "Asynchronous Programming"]
+        },
+        {
+          "name": "Flutter Framework",
+          "subTopics": ["Widgets", "State Management", "Animations"]
+        }
+      ],
+      "difficulty": "Intermediate",
+      "durationHours": 55,
+      "rating": 4.7,
+      "reviewCount": 130,
+      "price": 279.99
+    },
+    {
+      "id": 8,
+      "title": "Artificial Intelligence for Beginners",
+      "image": "https://www.mygreatlearning.com/blog/wp-content/uploads/2020/09/iStock-1207062970.jpg",
+      "topics": [
+        {
+          "name": "AI Basics",
+          "subTopics": ["History", "Applications", "Ethics"]
+        },
+        {
+          "name": "AI Techniques",
+          "subTopics": ["Search Algorithms", "Neural Networks", "Genetic Algorithms"]
+        }
+      ],
+      "difficulty": "Beginner",
+      "durationHours": 35,
+      "rating": 4.3,
+      "reviewCount": 90,
+      "price": 179.99
+    },
+    {
+      "id": 9,
+      "title": "Blockchain Development and Applications",
+      "image": "https://www.cyberbahnit.com/wp-content/uploads/2017/11/blockchain.jpg",
+      "topics": [
+        {
+          "name": "Blockchain Basics",
+          "subTopics": ["Cryptocurrency", "Smart Contracts", "Decentralization"]
+        },
+        {
+          "name": "Blockchain Development",
+          "subTopics": ["Ethereum", "Hyperledger", "Consensus Mechanisms"]
+        }
+      ],
+      "difficulty": "Advanced",
+      "durationHours": 65,
+      "rating": 4.8,
+      "reviewCount": 160,
+      "price": 379.99
+    },
+    {
+      "id": 10,
+      "title": "Digital Marketing Strategy",
+      "image": "https://kurieta.com/wp-content/uploads/2024/02/images-67.jpeg",
+      "topics": [
+        {
+          "name": "SEO & SEM",
+          "subTopics": ["Keyword Research", "On-Page SEO", "Ad Campaigns"]
+        },
+        {
+          "name": "Social Media Marketing",
+          "subTopics": ["Content Creation", "Engagement Strategies", "Analytics"]
+        }
+      ],
+      "difficulty": "Intermediate",
+      "durationHours": 40,
+      "rating": 4.6,
+      "reviewCount": 110,
+      "price": 229.99
+    },
+    {
+      "id": 11,
+      "title": "Photography Basics and Beyond",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDeVbqappUdTC429swt8p-9ros7TmjIKtH-A&s",
+      "topics": [
+        {
+          "name": "Camera Settings",
+          "subTopics": ["Aperture", "Shutter Speed", "ISO"]
+        },
+        {
+          "name": "Composition & Lighting",
+          "subTopics": ["Rule of Thirds", "Natural Lighting", "Post-Processing"]
+        }
+      ],
+      "difficulty": "Beginner",
+      "durationHours": 25,
+      "rating": 4.4,
+      "reviewCount": 75,
+      "price": 129.99
+    },
+    {
+      "id": 12,
+      "title": "Game Development with Unity",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSti6GgMY3IHx3fw-TwNU8O-AUBgWv3WHW8gg&s",
+      "topics": [
+        {
+          "name": "Unity Basics",
+          "subTopics": ["Interface", "Assets", "C# Scripting"]
+        },
+        {
+          "name": "Game Design",
+          "subTopics": ["Level Design", "Physics", "AI"]
+        }
+      ],
+      "difficulty": "Advanced",
+      "durationHours": 80,
+      "rating": 4.9,
+      "reviewCount": 250,
+      "price": 499.99
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Audio Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="player-container">
+        <div id="audioPlayer" class="audio-player">
+            <!-- <img id="albumCover" class="album-cover" src="" alt="Album Cover"> -->
+            <div class="image-container">
+                <img id="albumCover" class="album-cover" src="" alt="Album Cover">
+            </div>
+            
+            <div class="track-info">
+                <h2 id="trackTitle" class="track-title"></h2>
+                <h4 id="trackArtist" class="track-artist"></h4>
+            </div>
+            <audio id="audio" class="audio" controls></audio>
+            <div class="controls">
+                <button id="randomBtn" class="control-btn">🔀</button>
+                <button id="prevBtn" class="control-btn">⏮</button>
+               
+                <button id="playBtn" class="control-btn">▶️</button>
+                <button id="pauseBtn" class="control-btn" style="display:none;">⏸</button>
+                <button id="nextBtn" class="control-btn">⏭</button>
+                <button id="undoBtn" class="control-btn">↩️</button>
+            </div>
+            <div class="progress-container">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+        <div id="musicList" class="music-list"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
